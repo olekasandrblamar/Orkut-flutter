@@ -158,7 +158,7 @@ class _IntroScreenState extends State<IntroScreen> {
                         getVerSpace(FetchPixels.getPixelHeight(38.12)),
                         getButton(
                             context,
-                            blueColor,
+                            blackColor,
                             select == 2 ? "Get Started" : 'Next',
                             Colors.white, () {
                           if (select <= 1) {
@@ -183,7 +183,7 @@ class _IntroScreenState extends State<IntroScreen> {
                           onTap: () {
                             Constant.sendToNext(context, Routes.loginRoute);
                           },
-                          child: getCustomFont("Skip", 16, skipColor, 1,
+                          child: getCustomFont("Skip", 16, Colors.black, 1,
                               fontWeight: FontWeight.w400),
                         ),
                         getVerSpace(FetchPixels.getPixelHeight(84))

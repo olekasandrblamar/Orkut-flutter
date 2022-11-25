@@ -8,6 +8,7 @@ import 'dart:ui';
 // Color dividerColor = "#E5E8F1".toColor();
 Color textColor = "#6E768A".toColor();
 Color blueColor = "#2B66FF".toColor();
+Color blackColor = "#0F0F10".toColor();
 Color intro1 = "#ECF4FF".toColor();
 Color intro2 = "#FFF4EC".toColor();
 Color intro3 = "#F7ECFF".toColor();
