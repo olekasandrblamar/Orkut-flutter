@@ -173,6 +173,14 @@ class _IntroScreenState extends State<IntroScreen> {
                               curve: Curves.easeInSine);
                         }, 16,
                             weight: FontWeight.w600,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.4),
+                                spreadRadius: 4,
+                                blurRadius: 10,
+                                offset: Offset(0, 3),
+                              )
+                            ],
                             buttonHeight: FetchPixels.getPixelHeight(60),
                             insetsGeometry: EdgeInsets.symmetric(
                                 horizontal: FetchPixels.getPixelWidth(50)),
