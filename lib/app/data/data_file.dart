@@ -24,22 +24,22 @@ class DataFile {
   static List<ModelIntro> introList = [
     ModelIntro(
         1,
-        intro1,
+        blackColor,
         "intro1.png",
         "Secure Crypto Wallet",
         "Deposit your tokens in the most secure wallet with different security layers",
         "Next"),
     ModelIntro(
         2,
-        intro2,
+        blackColor,
         "intro2.png",
         "Trade Cryptocurrencies.",
         "Easily convert your tokens to fiat money by trading it in the mall. Get paid in your location",
         "Next"),
     ModelIntro(
         3,
-        intro3,
-        "intro3-new.png",
+        blackColor,
+        "intro3.png",
         "Withdraw Anytime",
         "Safely withdraw your crypto to any wallet, fast and securely and at the best rate possible.",
         "Get Started"),

@@ -43,7 +43,9 @@ class _IntroScreenState extends State<IntroScreen> {
                         children: [
                           Container(
                             height: FetchPixels.getPixelHeight(512),
-                            color: introLists[select].color,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    image: AssetImage("assets/images/intro_upperback.png"), fit: BoxFit.cover)),
                             alignment: Alignment.topCenter,
                             padding: EdgeInsets.only(
                                 top: FetchPixels.getPixelHeight(44),
@@ -53,14 +55,12 @@ class _IntroScreenState extends State<IntroScreen> {
                       ),
                       Positioned(
                           top: FetchPixels.getPixelHeight(431),
-                          left: FetchPixels.getPixelHeight(20),
-                          right: FetchPixels.getPixelHeight(20),
+                          left: FetchPixels.getPixelHeight(0),
+                          right: FetchPixels.getPixelHeight(0),
                           child: Container(
                             height: FetchPixels.getPixelHeight(392),
                             decoration: BoxDecoration(
                                 color: Colors.white,
-                                borderRadius: BorderRadius.circular(
-                                    FetchPixels.getPixelHeight(20)),
                                 boxShadow: [
                                   BoxShadow(
                                       color: shadowColor,
